@@ -6,6 +6,12 @@ O projeto foi desenvolvido com **viés acadêmico**, focado em treino de **React
 
 ---
 
+## 📸 Preview
+
+![Preview do projeto](./Animação.gif)
+
+---
+
 ## 🥤 Funcionalidades
 - Escolha do tipo de pedido (entrega ou retirada)
 - Seleção de sabores de açaí
