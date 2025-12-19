@@ -1,12 +1,54 @@
-# React + Vite
+# LT Açaiteria – Pedido Online (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação **frontend** desenvolvida para simular o **fluxo de pedidos online** de uma açaiteria real, permitindo que o usuário monte seu pedido de forma simples e intuitiva e finalize via **WhatsApp**.
 
-Currently, two official plugins are available:
+O projeto foi desenvolvido com **viés acadêmico**, focado em treino de **React** e **organização de fluxo de interface**, sem uso de backend ou banco de dados — todos os dados são **mockados no front-end**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🥤 Funcionalidades
+- Escolha do tipo de pedido (entrega ou retirada)
+- Seleção de sabores de açaí
+- Escolha do tamanho (300ml, 500ml, 700ml)
+- Adição de produtos ao carrinho
+- Visualização e edição do carrinho
+- Formulário de dados do cliente
+- Finalização do pedido via **WhatsApp**, com mensagem automática formatada
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🔄 Fluxo do usuário
+1. Usuário inicia o pedido
+2. Seleciona o tipo de açaí e o tamanho
+3. Adiciona itens ao carrinho
+4. Informa seus dados pessoais
+5. É redirecionado automaticamente para o WhatsApp da açaiteria com o pedido preenchido
+
+---
+
+## 🎓 Contexto do projeto
+- Projeto desenvolvido **para fins acadêmicos**
+- Objetivo principal: praticar **React**, **componentização** e **gerenciamento de estado**
+- Não possui backend ou persistência de dados
+- Toda a lógica de produtos, preços e carrinho foi **simulada no front-end**
+- A açaiteria representada é **real**, mas o sistema não está integrado a produção
+
+---
+
+## 🛠️ Tecnologias utilizadas
+- React
+- Vite
+- JavaScript
+- HTML
+- CSS
+
+---
+
+## 📂 Estrutura do projeto
+```txt
+src/
+ ├─ components/
+ ├─ routes/
+ ├─ assets/
+ ├─ services/
+ └─ styles/
